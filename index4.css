@@ -1,0 +1,235 @@
+body{
+    background-color: white;
+    
+}
+
+.main{
+    filter: blur(6px);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.icon2{
+    text-align: center;
+    font-size: 26px;
+    color: rgb(193, 29, 29);
+    padding: 5px;
+
+}
+
+a{
+    color:brown;
+}
+
+.b{
+    color: black;
+    
+}
+
+.card1{
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+    box-shadow: 2px 2px 10px grey;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 2px;
+    
+}
+.container{
+    width: 100%;
+    padding-right: 460px;
+    padding-bottom: 50px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.d{
+    color: red;
+    font-weight: bold;
+}
+
+h4{
+    color: rgb(195, 28, 28);
+    font-family:'lato' , sans-serif;
+    font-size:26px ;
+    text-align: center;
+    
+}
+
+
+    
+
+.first{
+    display: grid;
+    grid-template-rows: 10px auto 50px;
+    position: sticky;
+    justify-content: center;
+} 
+
+.one{
+    border-bottom: 5px solid black;
+    margin-left: 10px;
+    margin-right: 5px;
+    position:relative;
+    top: 70px;
+    width: 400px;
+    
+}
+
+.two{
+    border-bottom: 5px solid black;
+    margin-left: 700px;
+    margin-right: 5px;
+    position:relative;
+    bottom: 110px;
+    width: 400px;
+}
+
+.item{
+    border: 2px solid red;
+    width: 420px;
+    height: 270px;
+    background-color:white;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+    color: rgb(220, 29, 29);
+    text-align: center;
+    padding: 0px 5px 0px 10px;
+    position: fixed;
+    top: 230px;
+    
+}
+p{
+    font-size: 50px;
+}
+.text{
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.container2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+button{
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    width: 70px;
+    height: 40px;
+}
+.material-icons{
+    color: rgb(140, 39, 39);
+    font-size: 50px !important;
+}
+
+@media(max-width:786px){
+    .one{
+        display:none;
+    }
+    .two{
+        display: none;
+    }
+    
+    .b{
+        display: none;
+    }
+
+    .material-icons{
+        color: rgb(140, 39, 39);
+        font-size: 50px !important;
+    }
+    
+    .card1{
+        border: 2px solid red;
+        border-radius: 10px;
+        width: 400px;
+        height: 500px;
+        margin: 30px;
+        box-shadow: 2px 2px 10px grey;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 2px;
+        
+    }
+
+    .container{
+        width: 100%;
+        padding-right: 430px;        
+        display: flex;
+        justify-content: center;
+        
+    }
+    .dir1{
+        position: relative;
+        right: 220px;
+        top: 15px;
+        font-size: 58px !important;
+    }
+
+    .dir2{
+        position: relative;
+        top: 100px;
+        left: 170px;
+    }
+    
+    h4{
+        color: rgb(195, 28, 28);
+        font-family:'lato' , sans-serif;
+        font-size:40px ;
+        text-align: center;
+        
+    }
+
+    h1{
+        padding-top: 20px;
+        font-size: 70px;
+    }
+    hr{
+        margin-left:100px ;
+    }
+    .item{
+        border: 2px solid red;
+        width: 400px;
+        height: 250px;
+        background-color:white;
+        box-shadow: 2px 2px 5px grey;
+        border-radius: 20px;
+        color: rgb(183, 43, 43);
+        text-align: center;
+        padding: 0px 10px 0px 10px;
+        position: fixed;
+        top: 450px;
+        
+    }
+    p{
+        font-size: 40px;
+        font-weight: 800px;
+    }
+    .text{
+        font-size: 25px;
+        border: 2px solid black;
+
+    }
+    button{
+        color: white;
+        background-color: rgb(125, 51, 51);
+        border-radius: 10px;
+        width: 100px;
+        height: 45px;
+        border-radius: 20px;
+    }
+}
